@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factoring Trinomials</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Factoring Trinomials</h1>
+    <div class="section">
+        <h2>Trinomials are of the form: </h2>
+        <h3 id="formula">ax<sup>2</sup> + bx + c</h3>
+        <h3>In this lesson, we will solve the quadratic where a = 1 and generalize the steps</h3>
+    </div>
+
+    
+    <h3>Ex 1: x<sup>2</sup> + 3x - 28</h3>
+    
+    <div class="section">
+        <h4>Step 1. Note down c</h4>
+        <div class="ans" id="ans1">
+            <p>c = </p>
+            <input type="text" id="c">
+        </div>
+        <button type="button" id="cAns">Submit</button>
+        <p id="1"></p>
+    </div>
+    
+    <div class="section" id="factors">
+        <h4>Step 2. Find all pairs of factors that multiply to c</h4>
+    
+        <div id="twoinputs">
+            <input type="text"><input type="text">
+        </div>
+        <button type="button" id="minus">-</button>
+        <button type="button" id="add">+</button>
+    </div>
+
+    <div class="section">
+        <h4>Step 3. Note down b</h4>
+        <div class="ans" id="ans1">
+            <p>b =</p>
+            <input type="text" id="b">
+        </div>
+        <button type="button" id="bAns">Submit</button>
+        <p id="2"></p>
+    </div>
+
+    <div class="section">
+        <h4>Step 4. Which pair of factors add up to b?</h4>
+        <div class="ans">
+            <input type="text" id="b1"><input type="text" id="b2">
+        </div>
+        <button type="button" id="b1b2Ans">Submit</button>
+        <p id="3"></p>
+    </div>
+
+    <div class="section">
+        <h4>Step 5. Enter the factored answer in the form (x + c<sub>1</sub>)(x + c<sub>2</sub>)</h4>
+        <div class="ans">
+            <p>(<input type="text" id="final1">)(<input type="text" id="final2">)</p>
+        </div>
+        <button type="button" id="finalAns">Submit</button>
+        <p id="4"></p>
+    </div>
+
+</body>
+
+<footer>
+    <p>
+        © 2023 Nathee Thiensirisak
+    </p>
+</footer>
+</html>
